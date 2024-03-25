@@ -1,0 +1,100 @@
+body {
+  background-color: aliceblue;
+  color: #002c53;
+  font-family: system-ui, sans-serif;
+  margin: 5px 5px;
+  padding: 5px 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+input, button{
+  color: #002c53;
+  font-family: system-ui, sans-serif;
+}
+
+
+table {
+  background-color: #002c53;
+  border-radius: 5px;
+}
+
+th, td{
+  border: 1px solid #002c53;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+th {
+  background: #0080f0;
+  color: #002c53;
+}
+
+tr:nth-child(odd) td{
+  background: #d7ecff;
+}
+
+tr:nth-child(even) td{
+  background: #bde0ff;
+}
+
+a {
+  color: #002c53;
+}
+
+a:hover, .Edit:hover, .Delete:hover {
+  color:#0080f0;
+}
+
+h2 {
+  padding: 1% 0px;
+  margin: 1% 0px;
+}
+
+
+.EditExercisePage form, .CreateExercisePage form {
+  display: table;
+  width: fit-content;
+  margin: auto;
+}
+.EditExercisePage p, .CreateExercisePage p {
+  display: table-row;
+}
+.EditExercisePage label, .CreateExercisePage label {
+  text-align: left;
+  display: table-cell;
+  padding: 0px 10px;
+}
+.EditExercisePage input, .CreateExercisePage input {
+  display: table-cell;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-nav a{
+  margin: 10px 10px;
+  background-color:  #002c53;
+  color: aliceblue;
+  padding: 0px 20px 5px 20px;
+  margin: 0px 10px 0px 10px;
+  text-decoration:none;
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid aliceblue;
+  font-size:1em;
+  font-weight:bold;
+  border-radius:3px;
+}
+
+.App-nav a:hover{
+  margin: 10px 10px;
+  background-color: #0080f0;
+  color: #002c53;
+}
